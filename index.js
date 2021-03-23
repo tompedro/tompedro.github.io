@@ -17,13 +17,3 @@ image.addEventListener('click', () => {
 window.onbeforeunload = () => {
   return true
 }
-
-function flip(){
-    console.log(image.src);
-    if(image.src == "file:///C:/Users/Nox/Desktop/russia/res/full2.png"){
-        image.src = "./res/full.PNG"
-    }else{
-        image.src = "./res/full2.PNG"
-    }
-    setTimeout(flip, 500);
-}
