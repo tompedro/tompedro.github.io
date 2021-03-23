@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>WELCOM TO RUSSIA</title>
+    </head> 
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        #main {
+            width: 1365px;
+            height: 745px;
+        }
+
+        #vodka {
+            -webkit-animation: rotation 2s infinite linear;
+            border-radius: 30%;
+            cursor: pointer;
+            width:50px;
+            height: 170px;
+            visibility: hidden;
+            position: absolute;
+            top: 500px;
+            left: 600px;
+            color: #f1f1f1;
+            color: white;
+            font-size: 20px;
+            align-self: center;
+        }
+
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(359deg);
+            }
+        }
+
+    </style>
+    <body>
+        <h1 style=>Добро пожаловать в Россию</h1>
+        <div>
+            <img class="rot" id="vodka" src="./res/vodka.png">
+        </div>
+        <img id = "main" src="./res/russia.jpg" alt="A beautiful place" >
+        <audio autoplay loop src="./res/polka.wav" id="audio"></audio>
+        <script src="./index.js"> </script>
+    </body>
+</html>
