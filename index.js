@@ -5,7 +5,7 @@ image.addEventListener('click', () => {
   if (audio.paused) {
     audio.play()
     //setTimeout(flip, 1000);
-    image.src = "./res/full.PNG"
+    image.src = "./res/polka.png"
     vodka.style.visibility = "visible"
   } else {
     audio.pause()
